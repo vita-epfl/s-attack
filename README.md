@@ -1,7 +1,7 @@
 
 # Are socially-aware trajectory prediction models really socially-aware?
 
-The official code for the paper: "Are socially-aware trajectory prediction models really socially-aware?", [Webpage](https://s-attack.github.io/), [arXiv]()
+The official code for the paper: "Are socially-aware trajectory prediction models really socially-aware?", [Webpage](https://s-attack.github.io/), [arXiv](https://arxiv.org/abs/2108.10879)
 
 ## _Absract_:
 
@@ -39,7 +39,6 @@ bash run.sh
 @article{saadatnejad2021sattack,
   title={Are socially-aware trajectory prediction models really socially-aware?},
   author={Saadatnejad, Saeed and Bahari, Mohammadhossein and Khorsandi, Pedram and Saneian, Mohammad and Moosavi-Dezfooli, Seyed-Mohsen and Alahi, Alexandre},
-  journal={arXiv preprint arXiv:},
-  year={2021}
+  year={2021}, eprint={2108.10879}, archivePrefix={arXiv}, primaryClass={cs.CV}
 }
 ``` 

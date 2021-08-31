@@ -3,6 +3,10 @@
 
 The official code for the paper: "Are socially-aware trajectory prediction models really socially-aware?", [Webpage](https://s-attack.github.io/), [arXiv](https://arxiv.org/abs/2108.10879)
 
+&nbsp;
+
+<img src="pull.png" alt="drawing" width="700"/>
+
 ## _Absract_:
 
 Our field has recently witnessed an arms race of neural network-based trajectory predictors.

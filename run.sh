@@ -1,4 +1,4 @@
-python -m trajnetbaselines.lstm.run \
+python -m trajnetbaselines.sgan.run \
 --lr 0.01 \
 --layer_dims 1024 \
 --barrier 0.2 \
@@ -9,9 +9,9 @@ python -m trajnetbaselines.lstm.run \
 --perturb_all true \
 --threads_limit 1 \
 --data_part test \
---collision_type hard \
+--collision_type soft \
 --speed_up true \
 --sample_size 100 \
 --enable_thread false \
 --output './out/tmp/' \
---models_path 'trajnetbaselines/lstm/Target-Model/d_pool.state'
+--models_path 'trajnetbaselines/sgan/Target-Model/sgan.state'

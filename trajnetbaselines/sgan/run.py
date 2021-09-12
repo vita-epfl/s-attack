@@ -348,7 +348,7 @@ class Trainer(object):
                         t.join()
                     self.threads = []
             else:
-                self.attack_batchh(scene, scene_goal, 0, i)
+                self.attack_batch(scene, scene_goal, 0, i)
             if (i+1) % self.threads_limit == 0:
                 save_log("Collision Ratio After " + str(i) + " Sample: " + str(self.collision_counter/(self.collision_counter + self.fail_counter)), self.sample_status_address)
 

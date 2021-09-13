@@ -33,10 +33,14 @@ For more info on the installation, please refer to [Trajnet++](https://thedebugg
   * We used the trajnet++ [dataset](https://github.com/vita-epfl/trajnetplusplusdata/releases/tag/v4.0). For easy usage, we put data in DATA_BLOCK folder.
   
 ## Training/Testing:
-In order to attack the model:
+In order to attack the LSTM-based models (S-lstm, S-att, D-pool):
 ```
-bash run.sh
-``` 
+bash lrun.sh
+```
+In order to attack the GAN-based models:
+```
+bash grun.sh
+```
 
 ## For citation:
 ```

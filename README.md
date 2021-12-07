@@ -1,11 +1,11 @@
 # S-attack library: <br/> A library for evaluating trajectory prediction models
-This library contains two research projects which assess the trajectory prediction models, [__Social-attack__](https://github.com/vita-epfl/s-attack##Social-attack) which evaluates social understanding of models, and [__Scene-attack__](https://github.com/vita-epfl/s-attack##Scene-attack) which evaluates the scene-understanding of them.
+This library contains two research projects which assess the trajectory prediction models, [__Social-attack__](https://github.com/vita-epfl/s-attack#social-attack) which evaluates social understanding of models, and [__Scene-attack__](https://github.com/vita-epfl/s-attack#scene-attack) which evaluates the scene-understanding of them.
 
 ---
 
 > __Are socially-aware trajectory prediction models really socially-aware?__<br /> 
 > S. Saadatnejad, M. Bahari, P. Khorsandi, M. Saneian, S. Dezfooli, A. Alahi,  arxiv 2021 <br /> 
-> __[Website](https://s-attack.github.io/)__  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Paper](https://arxiv.org/abs/2108.10879)__ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Citation](https://github.com/vita-epfl/s-attack###for-citation)__  
+> __[Website](https://s-attack.github.io/)__  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Paper](https://arxiv.org/abs/2108.10879)__ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Citation](https://github.com/vita-epfl/s-attack#for-citation)__  
      
 <img src="docs/pull.png" width="600"/>
 
@@ -13,7 +13,7 @@ This library contains two research projects which assess the trajectory predicti
 
 > __Vehicle trajectory prediction works, but not everywhere__<br /> 
 >  M. Bahari, S. Saadatnejad, A. Rahimi, M. Shaverdikondori, S. Dezfooli, A. Alahi,  arxiv 2021 <br /> 
->  __[Website](https://s-attack.github.io/)__  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Paper]()__ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Citation](https://github.com/vita-epfl/s-attack###for-citation)__ 
+>  __[Website](https://s-attack.github.io/)__  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Paper]()__ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Citation](https://github.com/vita-epfl/s-attack#for-citation)__ 
      
 <img src="docs/fig.PNG" width="400"/>
 
@@ -69,7 +69,7 @@ To be released soon.
   author={Saadatnejad, Saeed and Bahari, Mohammadhossein and Khorsandi, Pedram and Saneian, Mohammad and Moosavi-Dezfooli, Seyed-Mohsen and Alahi, Alexandre},
   year={2021}, eprint={2108.10879}, archivePrefix={arXiv}, primaryClass={cs.CV}
 }
-@article{Bahari2021sattack,
+@article{bahari2021sattack,
   title={Vehicle trajectory prediction works, but not everywhere},
   author={Bahari, Mohammadhossein and Saadatnejad, Saeed and Rahimi, Ahmad and Shaverdikondori, Mohammad and Moosavi-Dezfooli, Seyed-Mohsen and Alahi, Alexandre},
   year={2021}, eprint={}, archivePrefix={arXiv}, primaryClass={cs.CV}

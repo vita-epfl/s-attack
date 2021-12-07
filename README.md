@@ -7,7 +7,7 @@ This library contains two research projects which assess the trajectory predicti
 > S. Saadatnejad, M. Bahari, P. Khorsandi, M. Saneian, S. Dezfooli, A. Alahi,  arxiv 2021 <br /> 
 > __[Website](https://s-attack.github.io/)__  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Paper](https://arxiv.org/abs/2108.10879)__ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Citation](https://github.com/vita-epfl/s-attack#for-citation)__  
      
-<img src="docs/pull.png" width="600"/>
+<img src="docs/pull.png" width="500"/>
 
 ---
 
@@ -15,7 +15,7 @@ This library contains two research projects which assess the trajectory predicti
 >  M. Bahari, S. Saadatnejad, A. Rahimi, M. Shaverdikondori, S. Dezfooli, A. Alahi,  arxiv 2021 <br /> 
 >  __[Website](https://s-attack.github.io/)__  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Paper]()__ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Citation](https://github.com/vita-epfl/s-attack#for-citation)__ 
      
-<img src="docs/fig.PNG" width="400"/>
+<img src="docs/fig.PNG" width="300"/>
 
 ---
 
@@ -26,7 +26,6 @@ The official code for the paper: "Are socially-aware trajectory prediction model
 
 &nbsp;
 
-<img src="docs/pull.png" alt="drawing" width="600"/>
 
 #### Installation:
 
@@ -60,7 +59,6 @@ bash grun.sh
 ### Vehicle trajectory prediction works, but not everywhere
 To be released soon.
 
-<img src="docs/fig.PNG" alt="drawing" width="400"/>
 
 ### For citation:
 ```

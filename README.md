@@ -1,5 +1,5 @@
 # S-attack library: <br/> A library for evaluating trajectory prediction models
-This library contains two research projects which assess the trajectory prediction models, [__Social-attack__](https://github.com/vita-epfl/s-attack#social-attack) which evaluates social understanding of models, and [__Scene-attack__](https://github.com/vita-epfl/s-attack#scene-attack) which evaluates the scene-understanding of them.
+This library contains two research projects to assess the trajectory prediction models, [__Social-attack__](https://github.com/vita-epfl/s-attack#social-attack) which evaluates social understanding of models, and [__Scene-attack__](https://github.com/vita-epfl/s-attack#scene-attack) which evaluates the scene-understanding of them.
 
 ---
 

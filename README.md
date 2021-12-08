@@ -57,8 +57,11 @@ bash grun.sh
 
 ## Scene-attack
 ### Vehicle trajectory prediction works, but not everywhere
-To be released soon.
+The official code for the paper: "Vehicle trajectory prediction works, but not everywhere", [Webpage](https://s-attack.github.io/), [arXiv](https://arxiv.org/abs/2112.03909)
 
+&nbsp;
+
+Code will be released soon!
 
 ### For citation:
 ```

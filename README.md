@@ -13,7 +13,7 @@ This library contains two research projects which assess the trajectory predicti
 
 > __Vehicle trajectory prediction works, but not everywhere__<br /> 
 >  M. Bahari, S. Saadatnejad, A. Rahimi, M. Shaverdikondori, S. Dezfooli, A. Alahi,  arxiv 2021 <br /> 
->  __[Website](https://s-attack.github.io/)__  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Paper]()__ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Citation](https://github.com/vita-epfl/s-attack#for-citation)__ 
+>  __[Website](https://s-attack.github.io/)__  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Paper](https://arxiv.org/abs/2112.03909)__ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Citation](https://github.com/vita-epfl/s-attack#for-citation)__ 
      
 <img src="docs/fig.PNG" width="300"/>
 
@@ -70,6 +70,6 @@ To be released soon.
 @article{bahari2021sattack,
   title={Vehicle trajectory prediction works, but not everywhere},
   author={Bahari, Mohammadhossein and Saadatnejad, Saeed and Rahimi, Ahmad and Shaverdikondori, Mohammad and Moosavi-Dezfooli, Seyed-Mohsen and Alahi, Alexandre},
-  year={2021}, eprint={}, archivePrefix={arXiv}, primaryClass={cs.CV}
+  year={2021}, eprint={2112.03909}, archivePrefix={arXiv}, primaryClass={cs.CV}
 }
 ``` 

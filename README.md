@@ -74,6 +74,8 @@ bash grun.sh
 @article{saadatnejad2021sattack,
   title={Are socially-aware trajectory prediction models really socially-aware?},
   author={Saadatnejad, Saeed and Bahari, Mohammadhossein and Khorsandi, Pedram and Saneian, Mohammad and Moosavi-Dezfooli, Seyed-Mohsen and Alahi, Alexandre},
-  year={2021}, eprint={2108.10879}, archivePrefix={arXiv}, primaryClass={cs.CV}
+  journal={arXiv preprint arXiv:2108.10879},
+  year={2021}
 }
+
 ``` 

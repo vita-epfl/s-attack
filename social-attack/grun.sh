@@ -1,0 +1,17 @@
+python -m trajnetbaselines.sgan.run \
+--lr 0.01 \
+--layer_dims 1024 \
+--barrier 0.2 \
+--show_limit 50 \
+--type d_pool \
+--reg_noise 0.1 \
+--reg_w 0.7 \
+--perturb_all true \
+--threads_limit 1 \
+--data_part test \
+--collision_type soft \
+--speed_up true \
+--sample_size 100 \
+--enable_thread false \
+--output './out/tmp/' \
+--models_path 'trajnetbaselines/sgan/Target-Model/sgan.state'

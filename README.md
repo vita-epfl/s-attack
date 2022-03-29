@@ -13,7 +13,7 @@ This library contains two research projects to assess the trajectory prediction 
 ---
 
 > __Are socially-aware trajectory prediction models really socially-aware?, arxiv 2021__<br /> 
-> S. Saadatnejad, M. Bahari, P. Khorsandi, M. Saneian, S. Dezfooli, A. Alahi <br /> 
+> S. Saadatnejad, M. Bahari, P. Khorsandi, M. Saneian, S. Moosavi-Dezfooli, A. Alahi <br /> 
 > __[Website](https://s-attack.github.io/)__  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Paper](https://arxiv.org/abs/2108.10879)__ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Citation](https://github.com/vita-epfl/s-attack#for-citation)__  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  __[Code](https://github.com/vita-epfl/s-attack/tree/master/social-attack)__
      
 <img src="docs/pull.png" width="500"/>

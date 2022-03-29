@@ -4,7 +4,7 @@ This library contains two research projects to assess the trajectory prediction 
 
 ---
 
-> __Vehicle trajectory prediction works, but not everywhere, CVPR 2020__<br /> 
+> __Vehicle trajectory prediction works, but not everywhere, CVPR 2022__<br /> 
 >  M. Bahari, S. Saadatnejad, A. Rahimi, M. Shaverdikondori, A. Shahidzadeh, S. Moosavi-Dezfooli, A. Alahi <br /> 
 >  __[Website](https://s-attack.github.io/)__  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Paper](https://arxiv.org/abs/2112.03909)__ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Citation](https://github.com/vita-epfl/s-attack#for-citation)__   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  __[Code](https://github.com/vita-epfl/s-attack/tree/master/scene-attack)__
      

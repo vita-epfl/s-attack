@@ -18,6 +18,7 @@ You need to install packages listed in requirements.txt. You can do so by runnin
 ```shell script
 pip install -r requirements.txt
 ```
+You should also install the argoverse's API package and download its data. You can find instructions to do so in [this link](https://github.com/argoai/argoverse-api).
 
 ## Changing Config File
 You should have [argoverse](https://www.argoverse.org/)'s Motion Forecasting data available on the machine you plan to run this project on. 

@@ -30,11 +30,15 @@ This library contains two research projects to assess the trajectory prediction 
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     year      = {2022},
 }
-@article{saadatnejad2021sattack,
-  title={Are socially-aware trajectory prediction models really socially-aware?},
-  author={Saadatnejad, Saeed and Bahari, Mohammadhossein and Khorsandi, Pedram and Saneian, Mohammad and Moosavi-Dezfooli, Seyed-Mohsen and Alahi, Alexandre},
-  journal={arXiv preprint arXiv:2108.10879},
-  year={2021}
+@article{saadatnejad_sattack,
+title = {Are socially-aware trajectory prediction models really socially-aware?},
+journal = {Transportation Research Part C: Emerging Technologies},
+volume = {141},
+pages = {103705},
+year = {2022},
+issn = {0968-090X},
+doi = {https://doi.org/10.1016/j.trc.2022.103705},
+author = {Saeed Saadatnejad and Mohammadhossein Bahari and Pedram Khorsandi and Mohammad Saneian and Seyed-Mohsen Moosavi-Dezfooli and Alexandre Alahi},
 }
 
 ``` 

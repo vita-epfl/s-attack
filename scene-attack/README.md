@@ -29,7 +29,7 @@ You should fill the first one with the path to argoverse's validation data folde
 Fill the second, third and forth with path to the LaneGCN, DATF, and WIMP model's weights respectively and last one with the path of the preprocessed data you have downloaded.
 You can see an example of how to fill them correctly in the code bellow:
 ```python
-argo_dataset_path = "/.../argoverse-api/val/data"
+argo_path = "/.../argodataset/forecasting_val_v1.1/" # which includes val/data files"
 lanegcn_model_weights_path = "./36.000.ckpt"
 datf_model_weights_path = "/.../experiment/attgscam.argo"
 wimp_model_weights_path = "/.../experiments/example2/checkpoints/"

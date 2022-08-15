@@ -14,26 +14,25 @@ Table of Contents
   * [Real-World Searching](#real-world-searching)
  
 ## Install Dependency
-You need to install packages listed in requirements.txt. You can do so by running the code bellow:
+You need to install packages listed in requirements.txt:
 ```shell script
 pip install -r requirements.txt
 ```
+In case of errors, try to remove the versions of the specific erroneous package. 
 You should also install the argoverse's API package and download its data. You can find instructions to do so in [this link](https://github.com/argoai/argoverse-api).
 
 ## Changing Config File
 You should have [argoverse](https://www.argoverse.org/)'s Motion Forecasting data available on the machine you plan to run this project on. 
-In addition, you need to download LaneGCN's trained model [here](http://yun.sfo2.digitaloceanspaces.com/public/lanegcn/36.000.ckpt) and have the weights of trained model for DATF and WIMP model.
-You should also download argoverse's preprocessed validation data from [here](https://yun.sfo2.cdn.digitaloceanspaces.com/public/lanegcn/val_crs_dist6_angle90.p).
-After downloading everything, you should edit the first five lines of the `config.py` file.
-You should fill the first one with the path to argoverse's validation data folder. 
-Fill the second, third and forth with path to the LaneGCN, DATF, and WIMP model's weights respectively and last one with the path of the preprocessed data you have downloaded.
-You can see an example of how to fill them correctly in the code bellow:
+In addition, you need to download LaneGCN's trained model [here](http://yun.sfo2.digitaloceanspaces.com/public/lanegcn/36.000.ckpt) and argoverse's preprocessed validation data [here](https://yun.sfo2.cdn.digitaloceanspaces.com/public/lanegcn/val_crs_dist6_angle90.p).
+Also, train models for DATF and WIMP model based on the available code.
+
+Then, edit `config.py` file based on the addresses in your machine:
 ```python
-argo_path = "/.../argodataset/forecasting_val_v1.1/" # which includes val/data files"
+argo_path = "/.../argodataset/forecasting_val_v1.1/" # path to argoverse's validation data folder which includes val/data files"
 lanegcn_model_weights_path = "./36.000.ckpt"
 datf_model_weights_path = "/.../experiment/attgscam.argo"
 wimp_model_weights_path = "/.../experiments/example2/checkpoints/"
-argo_preprocessed_data_path = "./val_crs_dist6_angle90.p"
+argo_preprocessed_data_path = "./val_crs_dist6_angle90.p" # path to LaneGCN's processed validation data
 ``` 
 
 
@@ -42,13 +41,13 @@ To make the synthesized scenarios and test the baseline models on these scenario
 * Using `--model_name` argument you can specify the baseline (the options: LaneGCN, MPC, DATF, WIMP)
 * using `--n_scenarios` you can specify the number of scenarios (default 20)
 
-The output of running this code is SOR and HOR percentages in table 1 of the paper.
+The output is SOR and HOR percentages in table 1 of the paper.
 
-If you insert `--optimization_type` (options: baysian, evolution, parzen) the code will reproduce the results in table 2 of supplementary materials.
+By inserting `--optimization_type` (options: baysian, evolution, parzen) the code will reproduce the results in table 2 of supplementary materials.
 
 Also, if you want to save the scenario images, you can determine the saving directory using `--save_addr`.
 
-For example, if you want to reproduce the results of the table 1 for DATF model in 70 scenarios and save all the scenario images in the folder `scenario-images/datf-images` you should run the following script:
+As an example, to reproduce the results of table 1 for DATF model in 70 scenarios and save all the scenario images in folder `scenario-images/datf-images` run:
 ```shell script
 python main.py --model_name "DATF" --n_scenarios 70 --save_addr "datf-images"
 ```
@@ -57,7 +56,7 @@ And here is a sample image of a synthesized scenario:
 ![synthesized scenario](figures/rendering.png)
 ## Transferring Scenarios
 
-If you want to reproduce results of the table 4, first you should run the `main.py` with the argument `--transfer` to save the attack parameters obtains for this model in the `transfer-attack-files` folder then you should run again and specify the model you want to transfer the attack parameters from using the argument `--transfer_from` and it will use to attack the model that is specified by `--model_name` (in this case you should specify the number of scenarios used in first run). 
+If you want to reproduce results of table 4, first you should run the `main.py` with the argument `--transfer` to save the attack parameters obtains for this model in the `transfer-attack-files` folder then you should run again and specify the model you want to transfer the attack parameters from using the argument `--transfer_from` and it will use to attack the model that is specified by `--model_name` (in this case you should specify the number of scenarios used in first run). 
 
 For example, if you want to transfer attack parameters from LaneGCN model to WIMP model for 50 scenarios, the following two lines would do it:
 ```shell script
@@ -66,7 +65,7 @@ python main.py --model_name "WIMP" --n_scenarios 50 --transfer_from "LaneGCN"
 ```
 
 ## Finetuning model
-In order to finetune the original LaneGCN model using our synthesized scenarios, you should firstly download the train an validation synthesized data from [here](https://drive.google.com/file/d/1X97vxcC5vEhLXtb0HBvSkRlAHntDc_nj/view?usp=sharing). You should extract this zip file and then update `syn_data_train_path` and `syn_data_val_path` in config file. Finally, run `finetune.py` to train the original LaneGCN model using the synthesized data. 
+In order to finetune the original LaneGCN model using our synthesized scenarios, firstly download the train an validation synthesized data from [here](https://drive.google.com/file/d/1X97vxcC5vEhLXtb0HBvSkRlAHntDc_nj/view?usp=sharing). You should extract this zip file and then update `syn_data_train_path` and `syn_data_val_path` in config file. Finally, run `finetune.py` to train the original LaneGCN model using the synthesized data. 
 
 ## Real-World Searching
 Fortunately, the data needed for this part is small and is uploaded to git, so by cloning the repository you should have no problem retrieving real-world scenarios.

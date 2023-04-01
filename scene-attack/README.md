@@ -23,7 +23,7 @@ You should also install the argoverse's API package and download its data. You c
 
 ## Changing Config File
 You should have [argoverse](https://www.argoverse.org/)'s Motion Forecasting data available on the machine you plan to run this project on. 
-In addition, you need to download LaneGCN's trained model [here](http://yun.sfo2.digitaloceanspaces.com/public/lanegcn/36.000.ckpt) and argoverse's preprocessed validation data [here](https://yun.sfo2.cdn.digitaloceanspaces.com/public/lanegcn/val_crs_dist6_angle90.p).
+In addition, you need to download LaneGCN's trained model [here](https://drive.google.com/file/d/13PPVUokzy0594BGMK4Oq528QGQ3MCEgo/view?usp=sharing) and argoverse's preprocessed validation data [here](https://yun.sfo2.cdn.digitaloceanspaces.com/public/lanegcn/val_crs_dist6_angle90.p).
 Also, train models for DATF and WIMP model based on the available code.
 
 Then, edit `config.py` file based on the addresses in your machine:

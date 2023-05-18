@@ -39,7 +39,7 @@ argo_preprocessed_data_path = "./val_crs_dist6_angle90.p" # path to LaneGCN's pr
 ## Making Synthesized Scenarios
 To make the synthesized scenarios and test the baseline models on these scenarios, you should run `main.py` with the following arguments: 
 * Using `--model_name` argument you can specify the baseline (the options: LaneGCN, MPC, DATF, WIMP)
-* using `--n_scenarios` you can specify the number of scenarios (default 20)
+* Using `--n_scenarios` you can specify the number of scenarios (default 20)
 
 The output is SOR and HOR percentages in table 1 of the paper.
 

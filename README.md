@@ -1,5 +1,5 @@
 
-# S-attack library: <br/> A library for evaluating trajectory prediction models
+# S-attack: <br/> A library for evaluating trajectory prediction models and making them robust
 This repo contains three research projects to assess the trajectory prediction models, [__Scene-attack__](https://github.com/vita-epfl/s-attack#scene-attack) which evaluates the scene-understanding of models, [__Social-attack__](https://github.com/vita-epfl/s-attack#social-attack) which evaluates social understanding of them, and [__Certified__](https://github.com/vita-epfl/s-attack#certified) which introduces a certified performance.
 
 ---
@@ -7,7 +7,7 @@ This repo contains three research projects to assess the trajectory prediction m
 >  M. Bahari, S. Saadatnejad, A. Askari Farsangi, S. Moosavi-Dezfooli, A. Alahi <br /> 
 >  __[Website](https://s-attack.github.io/)__  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Paper](https://arxiv.org/abs/2403.13778)__ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Citation](https://github.com/vita-epfl/s-attack#for-citation)__   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  __[Code](https://github.com/vita-epfl/s-attack/tree/master/certified)__
      
-<img src="docs/certified.PNG" width="500"/>
+<img src="docs/certified.png" width="500"/>
 
 ---
 

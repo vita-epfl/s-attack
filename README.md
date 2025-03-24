@@ -1,6 +1,13 @@
 
 # S-attack library: <br/> A library for evaluating trajectory prediction models
-This library contains two research projects to assess the trajectory prediction models, [__Scene-attack__](https://github.com/vita-epfl/s-attack#scene-attack) which evaluates the scene-understanding of models and [__Social-attack__](https://github.com/vita-epfl/s-attack#social-attack) which evaluates social understanding of them.
+This repo contains three research projects to assess the trajectory prediction models, [__Scene-attack__](https://github.com/vita-epfl/s-attack#scene-attack) which evaluates the scene-understanding of models, [__Social-attack__](https://github.com/vita-epfl/s-attack#social-attack) which evaluates social understanding of them, and [__Certified__](https://github.com/vita-epfl/s-attack#certified) which introduces a certified performance.
+
+---
+> __Certified Human Trajectory Prediction, CVPR 2025__<br /> 
+>  M. Bahari, S. Saadatnejad, A. Askari Farsangi, S. Moosavi-Dezfooli, A. Alahi <br /> 
+>  __[Website](https://s-attack.github.io/)__  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Paper](https://arxiv.org/abs/2403.13778)__ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __[Citation](https://github.com/vita-epfl/s-attack#for-citation)__   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  __[Code](https://github.com/vita-epfl/s-attack/tree/master/certified)__
+     
+<img src="docs/certified.PNG" width="500"/>
 
 ---
 
@@ -24,12 +31,20 @@ This library contains two research projects to assess the trajectory prediction 
 
 ### For citation:
 ```
+@InProceedings{bahari2025certified,
+    author    = {Bahari, Mohammadhossein and Saadatnejad, Saeed and Askari Farsangi, Amirhossein and Moosavi-Dezfooli, Seyed-Mohsen and Alahi, Alexandre},
+    title     = {Certified Human Trajectory Prediction},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year      = {2025},
+}
+
 @InProceedings{bahari2022sattack,
     author    = {Bahari, Mohammadhossein and Saadatnejad, Saeed and Rahimi, Ahmad and Shaverdikondori, Mohammad and Shahidzadeh, Amir-Hossein and Moosavi-Dezfooli, Seyed-Mohsen and Alahi, Alexandre},
     title     = {Vehicle trajectory prediction works, but not everywhere},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     year      = {2022},
 }
+
 @article{saadatnejad2022sattack,
      author = {Saeed Saadatnejad and Mohammadhossein Bahari and Pedram Khorsandi and Mohammad Saneian and Seyed-Mohsen Moosavi-Dezfooli and Alexandre Alahi},
      title = {Are socially-aware trajectory prediction models really socially-aware?},

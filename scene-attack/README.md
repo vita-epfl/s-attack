@@ -96,3 +96,15 @@ Additionally, if you want to add more cities to the search space, you should do 
 ### Searching for other queries
 In order to search for other queries in the cities, you should add the query to the `query_ways` list.
 Each query is a list of roads, with each road being a list of points with coordinates in the [0, 200] range.
+
+
+---
+### For citation:
+```
+@InProceedings{bahari2022sattack,
+    author    = {Bahari, Mohammadhossein and Saadatnejad, Saeed and Rahimi, Ahmad and Shaverdikondori, Mohammad and Shahidzadeh, Amir-Hossein and Moosavi-Dezfooli, Seyed-Mohsen and Alahi, Alexandre},
+    title     = {Vehicle trajectory prediction works, but not everywhere},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year      = {2022},
+}
+``` 

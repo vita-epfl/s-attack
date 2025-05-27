@@ -1,4 +1,4 @@
-# Natural Scene Attack : Vehicle trajectory prediction works, but not everywhere
+# Vehicle trajectory prediction works, but not everywhere
 
 ![pull figure](figures/pull.png)
 

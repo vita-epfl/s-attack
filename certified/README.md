@@ -46,30 +46,18 @@ pip install -r requirements.txt
 
 ## Data Preparation
 
-In this work, we used the [TrajNet++](https://github.com/vita-epfl/trajnetplusplusdata/releases/tag/v4.0) dataset. Note that it is shared with the social-attack project. Therefore, you can create a symbolic link to avoid duplication:
+This work uses the [TrajNet++](https://github.com/vita-epfl/trajnetplusplusdata/releases/tag/v4.0) dataset, which is shared between the `social-attack` and `certified` projects. The repository includes symbolic links from `certified/` to `social-attack/` for `DATA_BLOCK/` and `trajnetplusplustools/` to avoid data duplication.
 
-```bash
-# From the certified/ directory
-ln -s ../social-attack/DATA_BLOCK DATA_BLOCK
-ln -s ../social-attack/trajnetplusplustools trajnetplusplustools
-```
-
-**Note:** If you're using Windows or prefer copying:
-```bash
-# Copy data from social-attack to certified
-cp -r ../social-attack/DATA_BLOCK ./DATA_BLOCK
-cp -r ../social-attack/trajnetplusplustools ./trajnetplusplustools
-```
-
-
-**Expected structure:**
+**Expected structure after cloning:**
 ```
 s-attack/
 ├── social-attack/
-│   └── DATA_BLOCK/
-│       └── trajdata/
+│   ├── DATA_BLOCK/
+│   │   └── trajdata/
+│   └── trajnetplusplustools/
 └── certified/
-    ├── DATA_BLOCK/          # symlink or copy
+    ├── DATA_BLOCK/              # symlink to ../social-attack/DATA_BLOCK
+    ├── trajnetplusplustools/    # symlink to ../social-attack/trajnetplusplustools
     ├── baselines/
     └── ...
 ```
